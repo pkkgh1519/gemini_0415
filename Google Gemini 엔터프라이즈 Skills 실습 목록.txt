@@ -1,0 +1,37 @@
+[Google Gemini 엔터프라이즈 Skills 실습 목록]
+
+--------------------------------------------------------
+[Course] : Prompt Design in Vertex AI
+https://www.skills.google/course_templates/976
+--------------------------------------------------------
+[1] Generative AI with Vertex AI: Prompt Design : 입문
+https://www.skills.google/course_templates/976/labs/550875
+Prompt Design in Vertex AI -->Generative AI with Vertex AI: Prompt Design
+
+[2] Get Started with Vertex AI Studio : 입문
+https://www.skills.google/course_templates/976/labs/550876
+Prompt Design in Vertex AI -->Get Started with Vertex AI Studio
+
+[3] Getting Started with Google Generative AI Using the Gen AI SDK : 입문
+https://www.skills.google/course_templates/976/labs/550877
+Prompt Design in Vertex AI -->Getting Started with Google Generative AI Using the Gen AI SDK
+
+[4] Prompt Design in Vertex AI: Challenge Lab : 입문
+https://www.skills.google/course_templates/976/labs/550878
+Prompt Design in Vertex AI -->Prompt Design in Vertex AI: Challenge Lab
+=============================================================
+--------------------------------------------------------
+[Course] : Gemini for Application Developers
+https://www.skills.google/course_templates/881/
+--------------------------------------------------------
+[5] Develop an app with Gemini : 입문
+https://www.skills.google/course_templates/881/labs/475235
+Gemini for Application Developers --> Develop an app with Gemini
+이 실습에서는 Google Cloud의 AI 기반 공동작업 도구인 Gemini를 사용하여 샘플 앱을 탐색, 생성,
+수정, 테스트, 배포합니다.
+=============================================================
+
+
+
+
+
