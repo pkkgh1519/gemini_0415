@@ -1,8 +1,8 @@
 
-##  Google Gemini (2026.04.15 ~ 04.17 , 21Hr)
+##  Google Gemini 기반 엔터프라이즈 생성형 AI 시스템 설계 및 최적화 전문가 과정 (2026.04.15 ~ 04.17 , 21Hr)
 <br>
 
-## 강사 git 주소 :    https://github.com/digicope/gemini_0408
+## 강사 git 주소 :    https://github.com/digicope/gemini_0415
 <br>
 
 #### git 사용기간 : 2026.04.15 ~ 04.17 (2026.04.17  이후에는 접속 불가)
