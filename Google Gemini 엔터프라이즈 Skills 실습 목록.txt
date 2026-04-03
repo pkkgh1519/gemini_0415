@@ -20,17 +20,82 @@ Prompt Design in Vertex AI -->Getting Started with Google Generative AI Using th
 https://www.skills.google/course_templates/976/labs/550878
 Prompt Design in Vertex AI -->Prompt Design in Vertex AI: Challenge Lab
 =============================================================
+[5] Multimodal Retrieval Augmented Generation (RAG) using the Vertex AI Gemini API : 중급
+https://www.skills.google/focuses/85643?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=78802307
+이 실습에서는 텍스트와 이미지가 모두 채워진 재무 문서에 대해 Q&A를 수행하는 멀티모달 RAG를 수행하는 방법을 알아봅니다.
+
+[6] Getting Started with Vector Search and Embeddings : 중급
+https://www.skills.google/course_templates/939/labs/604487
+Vector Search and Embeddings --> Getting Started with Vector Search and Embeddings
+이 실습에서는 Vertex AI의 텍스트 임베딩 기능을 사용하여 텍스트 임베딩을 생성하고, 이를 활용하여 벡터 검색 인덱스를 만드는 방법을 배우게 됩니다.
+
+[7] Build an AI Image Generator app on Vertex AI : 입문
+https://www.skills.google/focuses/96792?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&locale=en&parent=catalog&search_id=49997570
+
+[8] Using Gemini for Multimodal Retail Recommendations : 중급
+https://www.skills.google/focuses/85644?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=78802933
+이 실습에서는 장면(예: 거실)으로 시작해 Gemini 모델을 사용하여 시각적 이해를 수행해 봅니다. 또한 Gemini 모델을 사용하여 입력값인 가구 목록에서 품목(예: 의자)을 추천받는 방법을 살펴봅니다.
+
+[9] Build an LLM and RAG-based Chat Application with AlloyDB and Vertex AI : 중급
+https://www.skills.google/course_templates/1120/labs/532054
+Create Generative AI Apps on Google Cloud --> Build an LLM and RAG-based Chat Application with AlloyDB and Vertex AI111
+이 실습에서는 다음 내용을 학습합니다.
+RAG를 사용하여 지식 기반에서 관련 정보를 검색함으로써 LLM 기능을 향상시키는 방법
+AlloyDB를 사용하여 시맨틱 검색으로 관련 정보를 찾는 방법
+Vertex AI와 Google의 파운데이션 모델을 활용하여 애플리케이션에 강력한 생성형 AI 기능을 제공하는 방법
+
+[10] Introduction to Function Calling with Gemini : 중급
+https://www.skills.google/course_templates/959/labs/592559
+Explore Generative AI with the Gemini API in Vertex AI --> Introduction to Function Calling with Gemini
+이 실습에서는 다음을 수행합니다.
+Google Gen AI SDK for Python 설치
+Vertex AI의 Gemini API를 사용하여 model_name 모델과 상호 작용하는 방법:
+텍스트 프롬프트에서 함수 호출을 생성하여 고객이 Google 스토어의 제품 정보를 얻도록 지원
+텍스트 프롬프트에서 함수 호출을 생성하고 외부 API를 호출하여 주소의 지오코딩 구현
+텍스트 프롬프트에서 함수 호출을 생성하여 로그 데이터에서 엔티티 추출
 --------------------------------------------------------
 [Course] : Gemini for Application Developers
 https://www.skills.google/course_templates/881/
 --------------------------------------------------------
-[5] Develop an app with Gemini : 입문
+[10] Develop an app with Gemini : 입문
 https://www.skills.google/course_templates/881/labs/475235
 Gemini for Application Developers --> Develop an app with Gemini
 이 실습에서는 Google Cloud의 AI 기반 공동작업 도구인 Gemini를 사용하여 샘플 앱을 탐색, 생성,
 수정, 테스트, 배포합니다.
 =============================================================
+[11] Using Gemini Throughout the Software Development Lifecycle : 입문
+https://www.skills.google/paths/1282/course_templates/885/labs/473706
+이 실습에서는 Gemini를 사용하여 다음 작업을 수행합니다.
+Cloud Shell 편집기에서 Gemini Code Assist를 사용하여 웹 애플리케이션을 빌드합니다.
+애플리케이션을 Cloud Run에 배포합니다.
+Gemini에게 애플리케이션 오류를 설명하고 해결 방법을 제시하도록 요청합니다.
+Gemini의 도움을 받아 애플리케이션에 대한 통합 테스트를 개발합니다.
+Gemini Cloud Assist를 BigQuery와 함께 사용하여 테이블에 데이터를 로드하고 쿼리를 생성 및 설명하는 방법을 학습합니다.
+Gemini Cloud Assist를 Spanner와 함께 사용하여 트랜잭션 데이터를 쿼리합니다.
+Gemini Cloud Assist의 도움을 받아 애플리케이션 로그를 보는 방법을 학습합니다.
 
+[12] Building End to End MLOps Pipelines using Vertex AI : 중급
+https://www.skills.google/course_templates/1667/labs/622769
+Orchestrate ML Workflows with Vertex AI Pipelines --> Building End to End MLOps Pipelines using Vertex AI이 실습에서는 레벨 0 및 레벨 1 MLOps 성숙도 척도에 대한 개요를 제공하고 Google Cloud를 사용하여 로컬 모델 학습 및 서빙을 확장성이 뛰어나고 자동화된 파이프라인으로 전환하는 방법을 보여줍니다.(MLOps예제)
+
+[13] TFX on Google Cloud Vertex AI Pipelines : 중급
+https://www.skills.google/focuses/29775?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A1%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=78806757
+이 실습에서는 펭귄의 종을 예측하는 TensorFlow 2.15 분류 모델의 개발 및 배포를 자동화하는 TFX 파이프라인을 Google Cloud에 배포하고 실행하는 방법을 배우게 됩니다.(MLOps예제)
+=============================================================
+[14] Safeguarding with Vertex AI Gemini API : 중급
+https://www.skills.google/course_templates/1036/labs/584581
+Responsible AI for Developers: Privacy & Safety -> Safeguarding with Vertex AI Gemini API 
+이 실습에서는 Vertex AI Gemini API에서 반환되는 안전 등급을 검사하고 응답을 필터링하기 위한 안전 임계값을 설정하는 방법을 보여줍니다.
+
+[15] Protecting Sensitive Data in Gen AI Model Responses : 중급
+https://www.skills.google/focuses/109505?catalog_rank=%7B%22rank%22%3A7%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=78807647
+이 실습에서는 Jupyter 노트북을 사용하여 클라우드 데이터 손실 방지(DLP) API를 활용해 model_name 모델 응답에서 민감한 데이터를 분류하고 수정하는 방법을 살펴봅니다.
+
+
+
+
+-GCP generative-ai 예제 소스 github 주소: 
+https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini
 
 
 
