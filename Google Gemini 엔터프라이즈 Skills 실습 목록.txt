@@ -18,7 +18,7 @@ Prompt Design in Vertex AI -->Getting Started with Google Generative AI Using th
 =============================================================
 [4] Multimodal Retrieval Augmented Generation (RAG) using the Vertex AI Gemini API : 중급
 https://www.skills.google/focuses/85643?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=78802307
-이 실습에서는 텍스트와 이미지가 모두 채워진 재무 문서에 대해 Q&A를 수행하는 멀티모달 RAG를 수행하는 방법을 알아봅니다.
+이 실습에서는 Vertex AI의 Gemini API, 텍스트 임베딩, 멀티모달 임베딩과 RAG를 사용하여 문서 검색엔진을 빌드하는 방법을 보여줍니다.
 
 [5] Getting Started with Vector Search and Embeddings : 중급
 https://www.skills.google/course_templates/939/labs/604487
