@@ -4,15 +4,15 @@
 [Course] : Prompt Design in Vertex AI
 https://www.skills.google/course_templates/976
 --------------------------------------------------------
-[1] Generative AI with Vertex AI: Prompt Design : 입문
+[1] Generative AI with Vertex AI: Prompt Design : 입문 (무료)
 https://www.skills.google/course_templates/976/labs/550875
 Prompt Design in Vertex AI -->Generative AI with Vertex AI: Prompt Design
 
-[2] Get Started with Vertex AI Studio : 입문
+[2] Get Started with Vertex AI Studio : 입문 (무료)
 https://www.skills.google/course_templates/976/labs/550876
 Prompt Design in Vertex AI -->Get Started with Vertex AI Studio
 
-[3] Getting Started with Google Generative AI Using the Gen AI SDK : 입문
+[3] Getting Started with Google Generative AI Using the Gen AI SDK : 입문 (무료)
 https://www.skills.google/course_templates/976/labs/550877
 Prompt Design in Vertex AI -->Getting Started with Google Generative AI Using the Gen AI SDK
 =============================================================
