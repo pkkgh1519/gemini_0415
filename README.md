@@ -4,6 +4,8 @@
 
 ## 강사 git 주소 :    https://github.com/digicope/gemini_0415
 <br>
+https://www.skkukdt.re.kr/archive-page.html?id=gemini-ai-1773219566702
+<br>
 
 #### git 사용기간 : 2026.04.15 ~ 04.17 (2026.04.17  이후에는 접속 불가)
 
