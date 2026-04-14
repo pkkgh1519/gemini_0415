@@ -25,9 +25,6 @@ https://docs.cloud.google.com/vertex-ai/generative-ai/docs?hl=ko
 #### Agent Development Kit (ADK) 문서 :
 https://adk.dev/deploy/agent-engine/
 <br>
-#### Google Gemini Advanced 가입 방법 :
-https://support.google.com/gemini/answer/14517446?hl=ko&co=GENIE.Platform%3DAndroid
-<br>
 
 #### Gemini API 문서 :
 https://ai.google.dev/gemini-api/docs/api-key?hl=ko
