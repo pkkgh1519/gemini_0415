@@ -34,6 +34,11 @@ https://ai.google.dev/gemini-api/docs/api-key?hl=ko
 https://aistudio.google.com/app/apikey?hl=ko
 <br>
 
+#### GCP generative-ai 예제 소스 github 주소: 
+https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini
+https://github.com/GoogleCloudPlatform/agent-starter-pack
+<br>
+
 ####  프롬프트 엔지니어링 가이드 :  
 https://www.promptingguide.ai/kr
 <br>
