@@ -58,4 +58,13 @@ https://wikidocs.net/book/19059
 <br>
 <br>
 
+#### Vertex AI & Gemini 참고 서적 :
+[1] NotebookLM 스타일 AI Agent 개발: Vertex AI Agent Builder와 RAG로 구현하는 실전 가이드(ebook)
+https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000011589515
+<br>
+
+[2] Vertex AI와 Gemini로 시작하는 생성형 AI 실전 개발
+https://product.kyobobook.co.kr/detail/S000219542618
+<br>
+
 ##### [필독] 강의 중 깃허브에서 공유되는 자료나 소스는 출판이나 인터넷 공유사이트에서의 무단 배포나 게재시 <br> 저작권 문제가 발생될 수도 있으니 학습을 위한 개인적 용도로만 사용해주시길 부탁드립니다~     
