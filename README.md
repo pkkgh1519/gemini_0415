@@ -54,7 +54,7 @@ https://wikidocs.net/book/19059
 <br>
 <br>
 
-#### Vertex AI & Gemini 참고 서적 :
+#### Vertex AI & Gemini 참고 국내 서적 :
 [1] NotebookLM 스타일 AI Agent 개발: Vertex AI Agent Builder와 RAG로 구현하는 실전 가이드(ebook)
 <br>
 https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000011589515
