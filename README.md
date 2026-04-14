@@ -30,7 +30,7 @@ https://adk.dev/deploy/agent-engine/
 https://ai.google.dev/gemini-api/docs/api-key?hl=ko
 <br>
 
-#### Gemini API Key 발급 :
+#### Google Ai Studio : Gemini API Key 발급 :
 https://aistudio.google.com/app/apikey?hl=ko
 <br>
 
