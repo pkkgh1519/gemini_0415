@@ -67,7 +67,8 @@ Vertex AI의 Gemini API를 사용하여 model_name 모델과 상호 작용하는
 
 [10] Get Started with Agent Development Kit (ADK) : 고급
 https://www.skills.google/focuses/147009?parent=catalog
-이 실습에서는 검색 도구를 사용할 수 있는 단일 에이전트를 만듭니다. 완성한 에이전트는 ADK의 브라우저 UI, CLI 채팅 인터페이스, 스크립트 내부에서 프로그래매틱 방식으로 실행하여 테스트해 봅니다. (장시간 소요)
+이 실습에서는 검색 도구를 사용할 수 있는 단일 에이전트를 만듭니다. 완성한 에이전트는 ADK의 브라우저 UI, CLI 채팅 인터페이스, 스크립트 내부에서 프로그래매틱 방식으로 실행하여 테스트해 봅니다. 
+(task 5에서 답변 안나올수도 있음, skills에서만 실습)
 --------------------------------------------------------
 [Course] : Gemini for Application Developers
 https://www.skills.google/course_templates/881/
