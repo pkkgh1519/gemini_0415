@@ -46,7 +46,7 @@ https://www.promptingguide.ai/kr
 <br>
 <br>
 
-#### Gemini 위키독스 공개 문서 자료 :
+#### Vertex AI & Gemini 위키독스 공개 문서 자료 :
 https://wikidocs.net/book/14285
 <br>
 https://wikidocs.net/book/18252
