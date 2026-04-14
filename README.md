@@ -22,10 +22,6 @@ https://www.skkukdt.re.kr/archive-page.html?id=gemini-ai-1773219566702
 https://docs.cloud.google.com/vertex-ai/generative-ai/docs?hl=ko
 <br>
 
-#### Google Gemini 홈페이지 :
-https://gemini.google.com/
-<br>
-
 #### Agent Development Kit (ADK) 문서 :
 https://adk.dev/deploy/agent-engine/
 <br>
