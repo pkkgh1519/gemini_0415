@@ -41,15 +41,15 @@ https://www.promptingguide.ai/kr
 
 #### Vertex AI & Gemini 위키독스 공개 문서 자료 :
 
-#### 자세히 쓰는 Gemini API:
+#### [1] 자세히 쓰는 Gemini API:
 https://wikidocs.net/book/14285
 <br>
 
-#### 개발자를 위한 Gemini 핵심 가이드:
+#### [2] 개발자를 위한 Gemini 핵심 가이드:
 https://wikidocs.net/book/18252
 <br>
 
-#### Google Vertex AI HANDBOOK: 생성형 AI 애플리케이션 개발 :
+#### [3] Google Vertex AI HANDBOOK: 생성형 AI 애플리케이션 개발 :
 https://wikidocs.net/book/19059
 <br>
 <br>
