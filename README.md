@@ -33,12 +33,6 @@ https://adk.dev/deploy/agent-engine/
 https://support.google.com/gemini/answer/14517446?hl=ko&co=GENIE.Platform%3DAndroid
 <br>
 
-### Google Workspace용 Gemini 시작하기 문서 :
-https://support.google.com/a/users/answer/14590328?sjid=13399202741221561969-AP
-<br>
-https://support.google.com/docs/answer/13952129?hl=ko
-<br>
-
 #### Gemini API 문서 :
 https://ai.google.dev/gemini-api/docs/api-key?hl=ko
 <br>
