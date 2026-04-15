@@ -120,8 +120,10 @@ Responsible AI for Developers: Privacy & Safety -> Safeguarding with Vertex AI G
 (gemini_safety_ratings.ipynb)
 
 [18] Protecting Sensitive Data in Gen AI Model Responses : 중급
-https://www.skills.google/focuses/109505?catalog_rank=%7B%22rank%22%3A7%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=78807647
+https://www.skills.google/focuses/109505?parent=catalog
 이 실습에서는 Jupyter 노트북을 사용하여 클라우드 데이터 손실 방지(DLP) API를 활용해 model_name 모델 응답에서 민감한 데이터를 분류하고 수정하는 방법을 살펴봅니다.
+Sensitive Data Protection은 민감한 정보를 검색, 분류, 보호할 수 있도록 설계된 완전 관리형 서비스입니다. 주요 옵션으로는 민감한 정보를 지속적으로 프로파일링하는 Sensitive Data Discovery, 수정 등 민감한 정보의 익명화, 커스텀 워크로드 및 애플리케이션에 검색, 검사, 익명화를 빌드할 수 있는 Cloud Data Loss Prevention(DLP) API가 있습니다.
+(deidentify-model-response.ipynb)
 
 [19] Build a basic Conversational Agent Flow : 입문
 https://www.skills.google/focuses/92483?catalog_rank=%7B%22rank%22%3A16%2C%22num_filters%22%3A1%2C%22has_search%22%3Atrue%7D&locale=en&parent=catalog&search_id=80034750
