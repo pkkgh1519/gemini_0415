@@ -131,6 +131,11 @@ https://www.skills.google/focuses/92483?catalog_rank=%7B%22rank%22%3A16%2C%22num
 https://www.skills.google/focuses/124709?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A1%2C%22has_search%22%3Atrue%7D&locale=en&parent=catalog&search_id=80036517
 이 실습에서는 Gemini Enterprise 애플리케이션을 배포하고 Google Cloud Storage, Google Drive, Google Calendar를 비롯한 다양한 데이터 스토어에 연결합니다. 그런 다음 정보 검색을 위한 일반적인 AI 어시스턴트 사용, 특정 작업을 위한 커스텀 에이전트 생성, 심층적인 콘텐츠 분석을 위한 NotebookLM 활용 등 Gemini Enterprise의 다양한 기능을 살펴봅니다.
 
+[21] Explore and Evaluate Models using Model Garden : 입문
+https://www.skills.google/focuses/71938?parent=catalog
+이 실습에서는 Model Garden을 살펴본 후 Vertex AI Studio를 사용해 프롬프트를 만들고 실험해 볼 수 있는 사용 사례를 제공합니다.
+(model_garden_pytorch_owlvit.ipynb)
+
 
 - GCP generative-ai 예제 소스 github 주소: 
 https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini
