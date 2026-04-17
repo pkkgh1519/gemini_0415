@@ -1,4 +1,5 @@
 [Cursor 사용 AI 금융 분석 에이전트 제작 실습 질의문]
+--> OpenAI API 사용예제
 
 프로젝트 폴더명 : AI_Agent_Finance_Project
 
