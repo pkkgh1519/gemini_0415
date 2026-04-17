@@ -73,4 +73,8 @@ https://product.kyobobook.co.kr/detail/S000219542618
 <br>
 
 
+#### Amazon SageMaker AI MLOps 실습예제
+https://catalog.us-east-1.prod.workshops.aws/workshops/741835d3-a2bf-4cb6-81f0-d0bb4a62edca/en-US/04-lab-04
+<br>
+
 ##### [필독] 강의 중 깃허브에서 공유되는 자료나 소스는 출판이나 인터넷 공유사이트에서의 무단 배포나 게재시 <br> 저작권 문제가 발생될 수도 있으니 학습을 위한 개인적 용도로만 사용해주시길 부탁드립니다~     
