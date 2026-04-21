@@ -1,37 +1,34 @@
-# Gemini 0415 내부 기술 교육 공유 자료
+# Google Gemini 기반 엔터프라이즈 생성형 AI 실습 자료
 
-## 문서 목적
+2026.04.15 ~ 2026.04.17 과정에서 사용한 Gemini / Vertex AI 실습 자료를 정리한 저장소입니다.
+슬라이드, 노트북, 미니 프로젝트를 한곳에 모아두었고, 실습은 대부분 Google Cloud 환경에서 진행했습니다.
 
-이 문서는 `pkkgh1519/gemini_0415` 저장소를 내부 기술 교육 공유용으로 다시 정리한 안내 문서다.
-원본 저장소는 단일 애플리케이션 프로젝트가 아니라, Google Gemini / Vertex AI / ADK / RAG 관련 강의 자료를 한 번에 업로드한 교육용 패키지에 가깝다.
+이 저장소는 제품 레포라기보다 교육용 실습 패키지에 가깝습니다. 빠르게 훑어보고 따라 하기에는 좋지만, 그대로 서비스 베이스로 쓰기보다는 필요한 예제만 분리해서 재정리하는 방식이 더 적합합니다.
 
-따라서 이 문서의 목적은 다음 두 가지다.
+## 이 저장소로 할 수 있는 것
 
-1. 저장소 안에 어떤 자료가 들어 있는지 빠르게 파악할 수 있게 한다.
-2. 실제 실습을 어디부터 어떤 순서로 진행해야 하는지 판단할 수 있게 한다.
+- Gemini API 기본 호출 익히기
+- 프롬프트 설계와 버전 관리 흐름 보기
+- Vertex AI 기반 RAG와 Vector Search 실습하기
+- Function Calling과 Google Built-in Tools 확인하기
+- Google ADK와 A2A 예제 구조 살펴보기
+- Streamlit 기반 미니 에이전트 프로젝트 실행해보기
+- Agent Engine 배포 예제를 통해 Vertex AI 운영 흐름 이해하기
 
-## 저장소 성격 요약
+## 자료 구성
 
-- 강의 슬라이드, PDF, 일정표, 참고 링크가 함께 포함된 교육 자료 저장소다.
-- 실습의 중심은 Jupyter Notebook이다.
-- 일부 주제는 ZIP 파일로 별도 프로젝트가 포함되어 있다.
-- 재현 가능한 제품 레포라기보다, 수업 중 시연과 따라하기를 위한 샘플 모음에 가깝다.
+### 상위 폴더
 
-## 포함 자료 구조
-
-### 1. 상위 폴더 자료
-
-- PDF 강의자료
+- 강의 PDF
 - 과정 일정표
 - Google Skills Boost 실습 목록
-- 참고용 ZIP 파일
-- 원본 README
+- 참고용 ZIP 자료
 
-### 2. 실습소스 폴더
+### 실습소스
 
-`실습소스/` 아래가 실제 실습의 핵심이다.
+실제 실습의 중심은 `실습소스/` 폴더입니다.
 
-주요 노트북 순서는 다음과 같다.
+주요 노트북은 아래 흐름으로 보면 됩니다.
 
 1. `01_Gemini API 사용 기본 예제.ipynb`
 2. `02_Prompt 버전 관리.ipynb`
@@ -41,7 +38,7 @@
 6. `06_Google ADK.ipynb`
 7. `07_Agent to Agent.ipynb`
 
-이외에도 Google Skills Boost 기반 실습 노트북이 함께 포함되어 있다.
+공식 Google Cloud 실습 기반 노트북도 함께 포함되어 있습니다.
 
 - `intro_prompt_design_first.ipynb`
 - `intro_genai_sdk.ipynb`
@@ -51,92 +48,175 @@
 - `intro_agent_engine.ipynb`
 - `gemini_safety_ratings.ipynb`
 - `deidentify-model-response.ipynb`
-- `multimodal_retail_recommendations.ipynb`
 
-### 3. ZIP 프로젝트 자료
-
-실습소스 폴더에는 독립 실행형 예제 프로젝트도 포함되어 있다.
+### 포함된 ZIP 프로젝트
 
 - `AI_Agent_Trip_Project_Gemini-2.zip`
-  - Gemini API + LangChain + Streamlit 기반 여행 일정 추천 에이전트
+	- Gemini + LangChain + Streamlit 기반 여행 에이전트 예제
 - `AI_Agent_Finance_Project.zip`
-  - 금융 분석 / 리스크 평가 / 리포트 자동 생성 예제
-  - 이름과 달리 핵심 LLM은 OpenAI API 기반이다.
+	- 금융 분석 / 리포트 생성 예제
+	- 저장소 주제와 달리 OpenAI API 기반입니다.
 - `adk_project.zip`
-  - Google ADK 기반 검색 에이전트, 감사 에이전트, 멀티 에이전트 예제
+	- Google ADK 기반 검색 / 감사 / 멀티 에이전트 샘플
 - `deploy_agent.zip`
-  - Vertex AI Agent Engine 배포 예제
+	- Vertex AI Agent Engine 배포 예제
 
-## 내부 교육용으로 볼 때의 핵심 포인트
+## 실습 환경
 
-### 잘 정리된 점
+이번 과정은 로컬 PC보다는 Google Cloud 환경을 기준으로 진행했습니다.
 
-- Gemini API 기초부터 RAG, Function Calling, Built-in Tools, ADK, A2A까지 흐름이 이어진다.
-- 실습 노트북과 미니 프로젝트가 함께 있어 개념과 구현을 연결하기 좋다.
-- Vertex AI와 Gemini API, AI Studio, ADK, Agent Engine을 한 저장소에서 함께 볼 수 있다.
+- 기본 노트북 환경: Vertex AI Workbench Jupyter Notebook
+- 일부 공식 랩 환경: Google Skills Boost student 프로젝트 또는 사전 준비된 VM
+- 프로젝트형 실습 실행: Google Cloud Shell 또는 로컬 Python 환경
 
-### 그대로 사용하기 어려운 점
+노트북 안에 `qwiklabs-gcp-*`, `byounghwa-go`, `PROJECT_ID`, `LOCATION`, `STAGING_BUCKET` 같은 값이 직접 들어 있는 경우가 있습니다. 그대로 실행하지 말고 자신의 프로젝트 기준으로 바꿔서 사용해야 합니다.
 
-- 노트북 출력 결과가 포함되어 있어 저장소가 무겁다.
-- ZIP 내부에 로그, 벡터 DB, `.pyc`, 세션 DB 같은 런타임 산출물이 포함되어 있다.
-- 일부 README와 실제 코드의 설정 방식이 다르다.
-- ADK / Vertex AI 계열 예제는 GCP 프로젝트, 권한, 리전, 버킷 준비가 전제된다.
-- 금융 예제는 Gemini 교육 저장소 안에 있지만 OpenAI API를 사용하므로 학습 목적을 분리해서 봐야 한다.
+실제 수업과 최대한 비슷한 환경에서 실습하려면 `PRACTICE_GUIDE.md`를 먼저 확인해 주세요.
 
-## 권장 학습 경로
+## 추천 학습 순서
 
-내부 교육에서는 아래 순서로 보는 것이 가장 효율적이다.
+1. Gemini API 기초
+2. 프롬프트 설계
+3. RAG와 Vector Search
+4. Function Calling / Built-in Tools
+5. ADK / A2A
+6. 여행 에이전트 프로젝트
+7. Agent Engine 배포
+8. Safety / DLP / 멀티모달 확장 주제
 
-1. Gemini API 기초와 프롬프트 설계 이해
-2. RAG, Function Calling, Built-in Tools 실습
-3. ADK와 A2A로 에이전트 협업 구조 이해
-4. ZIP 프로젝트로 통합형 샘플 구조 확인
-5. Agent Engine 배포 예제로 운영 환경 연결 이해
-6. Safety / DLP / 멀티모달 실습으로 확장 주제 학습
+## 참고 링크
 
-자세한 절차는 `PRACTICE_GUIDE.md`를 참고한다.
+- Generative AI on Vertex AI 문서
+	- https://docs.cloud.google.com/vertex-ai/generative-ai/docs?hl=ko
+- Agent Development Kit 문서
+	- https://adk.dev/deploy/agent-engine/
+- Gemini API 문서
+	- https://ai.google.dev/gemini-api/docs/api-key?hl=ko
+- Google AI Studio
+	- https://aistudio.google.com/app/apikey?hl=ko
+- Google Cloud 공식 generative-ai 예제
+	- https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini
+- Agent Starter Pack
+	- https://github.com/GoogleCloudPlatform/agent-starter-pack
 
-## 추천 대상
+## 주의사항
 
-- Gemini API 입문 후 응용 범위를 넓히고 싶은 개발자
-- Vertex AI 기반 에이전트 구조를 빠르게 훑고 싶은 엔지니어
-- ADK, A2A, RAG를 하나의 교육 흐름으로 설명해야 하는 사내 강사
-- 실무 도입 전 PoC 아이디어를 찾는 팀
-
-## 비권장 사용 방식
-
-이 저장소를 바로 서비스 시작점으로 삼는 것은 권장하지 않는다.
-
-다음 이유 때문이다.
-
-- 버전 고정과 의존성 정리가 약하다.
-- 실행 산출물이 함께 포함되어 재현성이 떨어진다.
-- 학습용 데모와 실서비스용 구조가 혼재되어 있다.
-- 클라우드 설정, API 키, 벡터 DB 초기화 방식이 통일되어 있지 않다.
-
-실무 전환이 목적이라면, 필요한 실습 하나만 별도 저장소로 분리한 뒤 다음을 다시 정리하는 편이 낫다.
-
-1. 의존성 버전 고정
-2. 환경 변수 로딩 방식 통일
-3. 런타임 산출물 제거
-4. 실행 스크립트와 테스트 보강
-5. 목적별 README 재작성
-
-## 교육 운영 시 주의사항
-
-- 원본 README에는 외부 재배포에 대한 저작권 주의 문구가 포함되어 있다.
-- 내부 공유 시에도 공개 배포용 자료로 전환하지 말고, 학습 목적 범위에서만 사용 여부를 검토해야 한다.
-- Vertex AI 실습은 비용과 권한 이슈가 있으므로 사전 계정 준비가 필요하다.
-- 일부 실습은 Google Skills Boost 환경을 전제로 하므로 로컬 환경에서 완전히 동일하게 재현되지 않을 수 있다.
-
-## 빠른 판단
-
-- 개념 학습용: 적합
-- 강의 보조 자료: 적합
-- 사내 스터디 자료: 적합
-- 바로 배포 가능한 제품 레포: 부적합
-- 팀 공용 베이스 템플릿: 부적합
+- 일부 실습은 Google Skills Boost에서 제공하는 student 환경을 전제로 합니다.
+- Vertex AI Vector Search, Agent Engine, Cloud Logging, DLP 관련 예제는 비용과 권한 설정이 필요합니다.
+- ZIP 파일 안에는 로그, 벡터 DB, `.pyc`, 세션 DB 같은 실행 산출물이 포함되어 있을 수 있습니다.
+- 학습용 자료이므로 공개 재배포 전에는 저작권과 배포 범위를 반드시 확인해 주세요.
 
 ## 다음 문서
 
-실습 환경 준비, 권장 순서, 트랙별 진행 방법은 `PRACTICE_GUIDE.md`에 정리되어 있다.
+동일한 GCP 환경에서 다시 실습하는 방법은 `PRACTICE_GUIDE.md`에 정리해 두었습니다.
+# Google Gemini 기반 엔터프라이즈 생성형 AI 실습 자료
+
+2026.04.15 ~ 2026.04.17 과정에서 사용한 Gemini / Vertex AI 실습 자료를 정리한 저장소입니다.
+슬라이드, 노트북, 미니 프로젝트를 한곳에 모아두었고, 실습은 대부분 Google Cloud 환경에서 진행했습니다.
+
+이 저장소는 제품 레포라기보다 교육용 실습 패키지에 가깝습니다. 빠르게 훑어보고 따라 하기에는 좋지만, 그대로 서비스 베이스로 쓰기보다는 필요한 예제만 분리해서 재정리하는 방식이 더 적합합니다.
+
+## 이 저장소로 할 수 있는 것
+
+- Gemini API 기본 호출 익히기
+- 프롬프트 설계와 버전 관리 흐름 보기
+- Vertex AI 기반 RAG와 Vector Search 실습하기
+- Function Calling과 Google Built-in Tools 확인하기
+- Google ADK와 A2A 예제 구조 살펴보기
+- Streamlit 기반 미니 에이전트 프로젝트 실행해보기
+- Agent Engine 배포 예제를 통해 Vertex AI 운영 흐름 이해하기
+
+## 자료 구성
+
+### 상위 폴더
+
+- 강의 PDF
+- 과정 일정표
+- Google Skills Boost 실습 목록
+- 참고용 ZIP 자료
+
+### 실습소스
+
+실제 실습의 중심은 `실습소스/` 폴더입니다.
+
+주요 노트북은 아래 흐름으로 보면 됩니다.
+
+1. `01_Gemini API 사용 기본 예제.ipynb`
+2. `02_Prompt 버전 관리.ipynb`
+3. `03_RAG 기본 메카니즘.ipynb`
+4. `04_Function Calling.ipynb`
+5. `05_Google Built-in Tools.ipynb`
+6. `06_Google ADK.ipynb`
+7. `07_Agent to Agent.ipynb`
+
+공식 Google Cloud 실습 기반 노트북도 함께 포함되어 있습니다.
+
+- `intro_prompt_design_first.ipynb`
+- `intro_genai_sdk.ipynb`
+- `intro-textemb-vectorsearch.ipynb`
+- `intro_multimodal_rag.ipynb`
+- `Introduction to Function Calling with Gemini.ipynb`
+- `intro_agent_engine.ipynb`
+- `gemini_safety_ratings.ipynb`
+- `deidentify-model-response.ipynb`
+
+### 포함된 ZIP 프로젝트
+
+- `AI_Agent_Trip_Project_Gemini-2.zip`
+	- Gemini + LangChain + Streamlit 기반 여행 에이전트 예제
+- `AI_Agent_Finance_Project.zip`
+	- 금융 분석 / 리포트 생성 예제
+	- 저장소 주제와 달리 OpenAI API 기반입니다.
+- `adk_project.zip`
+	- Google ADK 기반 검색 / 감사 / 멀티 에이전트 샘플
+- `deploy_agent.zip`
+	- Vertex AI Agent Engine 배포 예제
+
+## 실습 환경
+
+이번 과정은 로컬 PC보다는 Google Cloud 환경을 기준으로 진행했습니다.
+
+- 기본 노트북 환경: Vertex AI Workbench Jupyter Notebook
+- 일부 공식 랩 환경: Google Skills Boost student 프로젝트 또는 사전 준비된 VM
+- 프로젝트형 실습 실행: Google Cloud Shell 또는 로컬 Python 환경
+
+노트북 안에 `qwiklabs-gcp-*`, `byounghwa-go`, `PROJECT_ID`, `LOCATION`, `STAGING_BUCKET` 같은 값이 직접 들어 있는 경우가 있습니다. 그대로 실행하지 말고 자신의 프로젝트 기준으로 바꿔서 사용해야 합니다.
+
+실제 수업과 최대한 비슷한 환경에서 실습하려면 `PRACTICE_GUIDE.md`를 먼저 확인해 주세요.
+
+## 추천 학습 순서
+
+1. Gemini API 기초
+2. 프롬프트 설계
+3. RAG와 Vector Search
+4. Function Calling / Built-in Tools
+5. ADK / A2A
+6. 여행 에이전트 프로젝트
+7. Agent Engine 배포
+8. Safety / DLP / 멀티모달 확장 주제
+
+## 참고 링크
+
+- Generative AI on Vertex AI 문서
+	- https://docs.cloud.google.com/vertex-ai/generative-ai/docs?hl=ko
+- Agent Development Kit 문서
+	- https://adk.dev/deploy/agent-engine/
+- Gemini API 문서
+	- https://ai.google.dev/gemini-api/docs/api-key?hl=ko
+- Google AI Studio
+	- https://aistudio.google.com/app/apikey?hl=ko
+- Google Cloud 공식 generative-ai 예제
+	- https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini
+- Agent Starter Pack
+	- https://github.com/GoogleCloudPlatform/agent-starter-pack
+
+## 주의사항
+
+- 일부 실습은 Google Skills Boost에서 제공하는 student 환경을 전제로 합니다.
+- Vertex AI Vector Search, Agent Engine, Cloud Logging, DLP 관련 예제는 비용과 권한 설정이 필요합니다.
+- ZIP 파일 안에는 로그, 벡터 DB, `.pyc`, 세션 DB 같은 실행 산출물이 포함되어 있을 수 있습니다.
+- 학습용 자료이므로 공개 재배포 전에는 저작권과 배포 범위를 반드시 확인해 주세요.
+
+## 다음 문서
+
+동일한 GCP 환경에서 다시 실습하는 방법은 `PRACTICE_GUIDE.md`에 정리해 두었습니다.
